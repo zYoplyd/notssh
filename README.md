@@ -1,10 +1,10 @@
 # NSSH V 1.0
 **Índice**   
-1. [Resumen](#id1)
-2. [Instalacion](#id2)
+1. [Resumen](#resumen)
+2. [Instalacion](#instalacion)
 
 
-### Resumen<a name="id1"></a>
+### Resumen<a name="resumen"></a>
 Este repositorio contiene una aplicación cliente-servidor llamada "nssh" que permite ejecutar comandos a nivel de sistema de forma remota. La aplicación está dividida en dos partes: un cliente y un servidor.
 
 El código del servidor se encarga de crear un socket y asociarlo a un puerto especificado por el usuario. A continuación, el servidor escucha por conexiones entrantes y, cuando recibe una, acepta la conexión y comienza a recibir comandos del cliente. Cuando recibe un comando, el servidor lo ejecuta en el sistema y envía el resultado de vuelta al cliente.
@@ -15,27 +15,27 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 
 
 
-## Instalacion <a name="id2"></a>
+## Instalacion <a name="instalacion"></a>
 ##### Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos:
 
-###### Abre una terminal en tu sistema operativo.
+Abre una terminal en tu sistema operativo.
 
-###### Asegúrate de tener instalado Git en tu sistema. Si no lo tienes instalado, puedes instalarlo con el siguiente comando:
+Asegúrate de tener instalado Git en tu sistema. Si no lo tienes instalado, puedes instalarlo con el siguiente comando:
 ```shell
  sudo apt-get install git
 ```
-###### Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
+Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
 ```shell
  git clone https://github.com/zYoplyd/nssh.git
 ```
 	
-###### Accede al directorio del repositorio descargado:
+Accede al directorio del repositorio descargado:
 ```shell
  cd nssh
 ```
-###### Usa el comando make para compilar el código de la aplicación:
+Usa el comando make para compilar el código de la aplicación:
 ```shell
  make
 ```
-###### Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
+Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
 [1]: http://https://github.com/zYoplyd/nssh/ "Resumen"
