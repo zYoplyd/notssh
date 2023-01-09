@@ -34,7 +34,7 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 ```
 - Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
 ```shell
- git clone https://github.com/zYoplyd/nssh.git
+ git clone https://github.com/zYoplyd/notssh.git
 ```
 	
 - Accede al directorio del repositorio descargado:
