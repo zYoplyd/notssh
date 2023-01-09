@@ -1,3 +1,3 @@
 all:
-	gcc -o server-nssh codes/server.c
-	gcc -o client-nssh codes/client.c
+	gcc -o notssh-client codes/client.c
+	gcc -o notssh-server codes/server.c
