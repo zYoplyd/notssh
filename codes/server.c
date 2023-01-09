@@ -5,7 +5,6 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #define MAX_MESSAGE_LEN 819200 // Longitud máxima del mensaje
-#define MAX_PENDING_CONNECTIONS 5 // Número máximo de conexiones pendientes
 
 char* read_file(const char* filename)
 {
@@ -91,7 +90,7 @@ int main(int argc, char* argv[])
         return 1;
     }
     // Escucha por conexiones entrantes
-    listen(sock, MAX_PENDING_CONNECTIONS);
+    listen(sock, 1);
     printf("Esperando por conexiones entrantes...\n");
     int i = 0;
     system("echo $PWD > .pwd.temp");
