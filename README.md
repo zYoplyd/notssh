@@ -21,20 +21,20 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 ###### Abre una terminal en tu sistema operativo.
 
 ###### Asegúrate de tener instalado Git en tu sistema. Si no lo tienes instalado, puedes instalarlo con el siguiente comando:
-```bash
+```shell
  sudo apt-get install git
 ```
 ###### Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
-```bash
+```shell
  git clone https://github.com/user/nssh.git
 ```
 	
 ###### Accede al directorio del repositorio descargado:
-```bash
+```shell
  cd nssh
 ```
 ###### Usa el comando make para compilar el código de la aplicación:
-```bash
+```shell
  make
 ```
 ###### Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
