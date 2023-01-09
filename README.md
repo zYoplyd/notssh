@@ -25,18 +25,17 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
  sudo apt-get install git
 ```
 ###### Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
-
 ```bash
  git clone https://github.com/user/nssh.git
 ```
 	
 ###### Accede al directorio del repositorio descargado:
 ```bash
-cd nssh
+ cd nssh
 ```
 ###### Usa el comando make para compilar el código de la aplicación:
 ```bash
-make
+ make
 ```
 ###### Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
 [1]: http://https://github.com/zYoplyd/nssh/ "Resumen"
