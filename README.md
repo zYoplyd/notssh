@@ -1,11 +1,11 @@
-# NSSH V 1.0
+# NotSSH V 1.0
 **Índice**   
 1. [Resumen](#resumen)
 2. [Instalacion](#instalacion)
 
 
 ### Resumen<a name="resumen"></a>
-Este repositorio contiene una aplicación cliente-servidor llamada "nssh" que permite ejecutar comandos a nivel de sistema de forma remota. La aplicación está dividida en dos partes: un cliente y un servidor.
+Este repositorio contiene una aplicación cliente-servidor llamada "NotSSH" que permite ejecutar comandos a nivel de sistema de forma remota. La aplicación está dividida en dos partes: un cliente y un servidor.
 
 El código del servidor se encarga de crear un socket y asociarlo a un puerto especificado por el usuario. A continuación, el servidor escucha por conexiones entrantes y, cuando recibe una, acepta la conexión y comienza a recibir comandos del cliente. Cuando recibe un comando, el servidor lo ejecuta en el sistema y envía el resultado de vuelta al cliente.
 
@@ -37,4 +37,4 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 ```shell
  make
 ```
-- Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
+- Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "notssh-client" y "notssh-server" en el directorio del repositorio.
