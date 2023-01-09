@@ -16,7 +16,7 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 
 
 ## Instalacion <a name="instalacion"></a>
-##### Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos:
+Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos:
 
 Abre una terminal en tu sistema operativo.
 
