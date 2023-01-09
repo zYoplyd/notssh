@@ -39,7 +39,7 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 	
 - Accede al directorio del repositorio descargado:
 ```shell
- cd nssh
+ cd notssh
 ```
 - Usa el comando make para compilar el código de la aplicación:
 ```shell
