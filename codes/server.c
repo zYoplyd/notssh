@@ -5,6 +5,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #define MAX_MESSAGE_LEN 819200 // Longitud máxima del mensaje
+#define MAX_PENDING_CONNECTIONS 5 // Número máximo de conexiones pendientes
 
 char* read_file(const char* filename)
 {
@@ -66,6 +67,11 @@ int main(int argc, char* argv[])
         return 7;
     }
     int port = atoi(argv[1]);
+    if (port < 1 || port > 65535)
+    {
+        printf("Puerto inválido. Debe ser entre 1 y 65535.\n");
+        return 8;
+    }
     int sock; // Socket del servidor
     struct sockaddr_in server; // Dirección del servidor
     int message_len; // Longitud del mensaje
@@ -84,13 +90,26 @@ int main(int argc, char* argv[])
     server.sin_addr.s_addr = INADDR_ANY; // Dirección IP del servidor (cualquiera)
     server.sin_port = htons(port); // Puerto del servidor
     // Asocia el socket al puerto del servidor
+    uid_t uid = getuid();
+    if (uid != 0 && port < 1024)
+    {
+        printf("Para puertos por debajo de 1024 requiere ejecutarse con sudo.\n");
+        return 9;
+    }
+
     if (bind(sock, (struct sockaddr*)&server, sizeof(server)) < 0)
     {
         printf("Error al asociar el socket al puerto\n");
         return 1;
     }
+    // Renuncia a los privilegios de root.
+    if (port < 1024)
+    {
+        setuid(1000);
+    }
+
     // Escucha por conexiones entrantes
-    listen(sock, 1);
+    listen(sock, MAX_PENDING_CONNECTIONS);
     printf("Esperando por conexiones entrantes...\n");
     int i = 0;
     system("echo $PWD > .pwd.temp");
