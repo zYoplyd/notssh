@@ -36,7 +36,7 @@ cd nssh
 ```
 ###### Usa el comando make para compilar el código de la aplicación:
 ```bash
-	make
+make
 ```
 ###### Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
 [1]: http://https://github.com/zYoplyd/nssh/ "Resumen"
