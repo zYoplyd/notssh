@@ -1,5 +1,5 @@
 ![Logo](https://user-images.githubusercontent.com/105953019/211302587-2d25f503-5e47-428c-a74a-32b8e97e9d2a.png)
-# NotSSH V 1.0 
+ # NotSSH V 1.0 
 
 **Índice**   
 1. [Resumen](#resumen)
@@ -16,8 +16,8 @@ El código del servidor incluye algunas funciones auxiliares para leer archivos,
 Es importante tener en cuenta que esta aplicación no implementa ningún tipo de seguridad, por lo que se recomienda tener precaución al utilizarla. Se recomienda utilizar esta aplicación solo en entornos de prueba o en redes confiables.
 
 
+## Instalacion <a name="instalacion"></a>  <img src="https://user-images.githubusercontent.com/105953019/211303153-4d2c1e12-5f01-4a17-abc0-f9df24a1583d.png " width="32" height="32" />
 
-## Instalacion <a name="instalacion"></a>
 
 <h4> Puedes elejir entre: </h4>
 
