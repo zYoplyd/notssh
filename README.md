@@ -16,25 +16,25 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 
 
 ## Instalacion <a name="instalacion"></a>
-Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos:
+<h4>Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos: </h4>
 
-Abre una terminal en tu sistema operativo.
+- Abre una terminal en tu sistema operativo.
 
-Asegúrate de tener instalado Git en tu sistema. Si no lo tienes instalado, puedes instalarlo con el siguiente comando:
+- Asegúrate de tener instalado Git en tu sistema. Si no lo tienes instalado, puedes instalarlo con el siguiente comando:
 ```shell
  sudo apt-get install git
 ```
-Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
+- Usa el comando git clone para descargar el repositorio "nssh" a tu ordenador:
 ```shell
  git clone https://github.com/zYoplyd/nssh.git
 ```
 	
-Accede al directorio del repositorio descargado:
+- Accede al directorio del repositorio descargado:
 ```shell
  cd nssh
 ```
-Usa el comando make para compilar el código de la aplicación:
+- Usa el comando make para compilar el código de la aplicación:
 ```shell
  make
 ```
-Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
+- Si la compilación se ha completado correctamente, encontrarás los archivos ejecutables "nssh-client" y "nssh-server" en el directorio del repositorio.
