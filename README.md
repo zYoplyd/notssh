@@ -16,6 +16,12 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 
 
 ## Instalacion <a name="instalacion"></a>
+
+<h4> Puedes elejir entre: </h4>
+
+<h5> 1.- Descargar un compilado desde: https://github.com/zYoplyd/notssh/releases </h5>
+<h5> 2.- Compilarlo tu mismo (Tutorial abajo).</h5>
+
 <h4>Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos: </h4>
 
 - Abre una terminal en tu sistema operativo.
