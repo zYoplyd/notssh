@@ -3,7 +3,6 @@
 1. [Resumen](#id1)
 2. [Instalacion](#id2)
 
-[========]
 
 ### Resumen<a name="id1"></a>
 Este repositorio contiene una aplicación cliente-servidor llamada "nssh" que permite ejecutar comandos a nivel de sistema de forma remota. La aplicación está dividida en dos partes: un cliente y un servidor.
@@ -14,7 +13,7 @@ El código del servidor incluye algunas funciones auxiliares para leer archivos,
 
 Es importante tener en cuenta que esta aplicación no implementa ningún tipo de seguridad, por lo que se recomienda tener precaución al utilizarla. Se recomienda utilizar esta aplicación solo en entornos de prueba o en redes confiables.
 
-[========]
+
 
 ##Instalacion:<a name="id2"></a>
 ##### Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos:
