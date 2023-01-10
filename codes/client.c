@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
             return 1;
         }
 
-        printf("\033[32m%s\033[0m", message2);
+        printf("%s", message2);
         i = 1;
         close(sock);
     } while (1);
