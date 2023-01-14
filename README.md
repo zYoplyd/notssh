@@ -1,5 +1,5 @@
 ![Logo](https://user-images.githubusercontent.com/105953019/211302587-2d25f503-5e47-428c-a74a-32b8e97e9d2a.png)
- # NotSSH V 1.0.01 
+ # NotSSH Beta V 1.0.01 
 
 **Índice**   
 1. [Resumen](#resumen)
@@ -19,10 +19,7 @@ Es importante tener en cuenta que esta aplicación no implementa ningún tipo de
 ## Instalacion <a name="instalacion"></a>  <img src="https://user-images.githubusercontent.com/105953019/211303153-4d2c1e12-5f01-4a17-abc0-f9df24a1583d.png " width="32" height="32" />
 
 
-<h4> Puedes elejir entre: </h4>
-
-<h5> 1.- Descargar un compilado desde: https://github.com/zYoplyd/notssh/releases </h5>
-<h5> 2.- Compilarlo tu mismo (Tutorial abajo).</h5>
+<h4>Compilarlo tu mismo (Tutorial abajo).</h4>
 
 <h4>Para descargar y compilar la aplicación "nssh", debes seguir los siguientes pasos: </h4>
 
